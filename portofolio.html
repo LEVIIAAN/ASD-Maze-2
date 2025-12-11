@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Farhan Fitran Maulana - AI & Data Science</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+        }
+        .slide-container {
+            width: 900px; 
+            height: 600px; 
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px 60px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            break-after: page; 
+        }
+        
+        /* Warna utama */
+        .color-primary { color: #0077B6; }
+        .bg-primary { background-color: #0077B6; }
+
+        /* SLIDE 1: COVER */
+        .slide-1 { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+        .slide-1 h1 { font-size: 4.5em; font-weight: 700; margin: 0; line-height: 1.1; color: #03045E; }
+        .slide-1 h2 { font-size: 1.8em; font-weight: 300; color: #0077B6; margin-top: 10px; border-left: 5px solid #0077B6; padding-left: 15px; }
+        .contact-box { position: absolute; bottom: 40px; left: 60px; width: 40%; padding: 15px; background-color: #F0F0F0; border-radius: 8px; font-size: 1em; }
+        .contact-box a { color: #03045E; text-decoration: none; font-weight: 600; }
+
+        /* SLIDE 2: PROFILE & SKILLS */
+        .slide-2 h3 { font-size: 1.4em; color: #03045E; margin-bottom: 10px; border-bottom: 2px solid #CAF0F8; padding-bottom: 5px; }
+        .profile-text { font-size: 1.05em; line-height: 1.6; margin-bottom: 30px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px; }
+        .skill-item { background-color: #E0FFFF; padding: 15px; border-radius: 8px; text-align: center; font-weight: 600; color: #0077B6; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); }
+        .skill-item span { display: block; font-size: 0.9em; font-weight: 400; color: #03045E; margin-top: 5px; }
+
+        /* SLIDE 3: PROJECT DETAIL */
+        .slide-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
+        .project-methodology h3 { font-size: 1.8em; color: #03045E; }
+        .method-point { margin-bottom: 15px; padding: 10px; border-left: 4px solid #48CAE4; background-color: #F0F9FF; }
+        .method-point strong { color: #0077B6; }
+        .results-summary { background-color: #0077B6; color: white; padding: 20px; border-radius: 8px; text-align: center; height: fit-content; }
+        .results-summary h4 { font-size: 1.5em; margin-top: 0; border-bottom: 2px solid white; padding-bottom: 10px; }
+        .results-summary .metric { font-size: 2.5em; font-weight: 700; margin: 10px 0; color: #90E0EF; }
+        .results-summary .label { font-size: 1em; font-weight: 300; }
+        .table-results th, .table-results td { border: 1px solid #E0FFFF; padding: 8px; }
+
+        /* SLIDE 4: VISUALIZATION & CONCLUSION */
+        .slide-4 { display: flex; flex-direction: column; }
+        .viz-area { display: flex; gap: 20px; flex: 1; margin-bottom: 30px; }
+        .viz-box { flex: 1; border: 2px solid #E0FFFF; padding: 15px; text-align: center; background-color: #F8F8F8; border-radius: 8px; }
+        .viz-box p { color: #03045E; font-weight: 600; margin-top: 5px; }
+        .viz-placeholder-img { display: block; height: 180px; width: 100%; object-fit: contain; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;}
+        .code-link-final { background-color: #03045E; padding: 20px; border-radius: 8px; text-align: center; }
+        .code-link-final a { color: white; font-size: 1.4em; font-weight: 700; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <div class="slide-container slide-1">
+        <h1 class="color-primary">FARHAN FITRAN MAULANA</h1>
+        <h1>AI & DATA SCIENCE</h1>
+        <h2>PROYEK UTAMA: PREDIKSI KEKERUHAN AIR (TIME SERIES REGRESSION)</h2>
+
+        <div class="contact-box">
+            <span class="color-primary">Kontak & Akses Kode:</span><br>
+            <a href="https://github.com/fuhrerhn" target="_blank">GitHub: https://github.com/fuhrerhn</a><br>
+            <a href="#">LinkedIn: [Link LinkedIn Anda]</a>
+        </div>
+    </div>
+
+    <div class="slide-container slide-2">
+        <h2 class="color-primary">PROFIL & KEAHLIAN</h2>
+        <div class="profile-text">
+            <p>Bersemangat dalam eksplorasi data dan implementasi model *Machine Learning* serta *Deep Learning* untuk memecahkan masalah kompleks, terutama yang melibatkan data *time series*. Siap berkontribusi aktif dalam lingkungan kolaboratif di Avalon AI Community.</p>
+        </div>
+
+        <h3>🛠️ Keahlian Teknis Inti</h3>
+        <div class="skills-grid">
+            <div class="skill-item">PYTHON (PANDAS, NUMPY) <span>Penguasaan Data Manipulation</span></div>
+            <div class="skill-item">TIME SERIES REGRESSION <span>Fokus pada Data Temporal</span></div>
+            <div class="skill-item">ENSEMBLE LEARNING <span>XGBoost, LightGBM, CatBoost</span></div>
+            <div class="skill-item">DEEP LEARNING (ANN) <span>TensorFlow/Keras Implementation</span></div>
+            <div class="skill-item">FEATURE ENGINEERING <span>Ekstraksi Fitur Waktu</span></div>
+            <div class="skill-item">DATA PREPROCESSING <span>Imputasi & Outlier Handling</span></div>
+        </div>
+    </div>
+
+    <div class="slide-container slide-3">
+        <div class="project-methodology">
+            <h3 class="color-primary">PROYEK: PREDIKSI KEKERUHAN AIR</h3>
+            <p style="font-style: italic;">Membandingkan performa model *ensemble* vs *Deep Learning* untuk memprediksi nilai Turbidity.</p>
+
+            <div class="method-point">
+                <strong>DATA PREPROCESSING:</strong>
+                <ul>
+                    <li>Imputasi nilai Median untuk menangani *Missing Values*.</li>
+                    <li>*Outlier Capping* (10% & 90%) untuk menstabilkan model.</li>
+                </ul>
+            </div>
+            
+            <div class="method-point">
+                <strong>FEATURE ENGINEERING & SCALING:</strong>
+                <ul>
+                    <li>Ekstraksi fitur waktu (`year`, `month`, `day`, `hour`).</li>
+                    <li>Scaling data numerik dengan `StandardScaler`.</li>
+                </ul>
+            </div>
+            
+            <div class="method-point">
+                <strong>MODELING & EVALUASI:</strong>
+                <ul>
+                    <li>Diuji: Gradient Boosting, XGBoost, LightGBM, dan Artificial Neural Network (ANN).</li>
+                    <li>Metrik Kunci: **Mean Squared Error (MSE)**.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="results-summary">
+            <h4>HASIL KUNCI MODEL</h4>
+            <div style="text-align: left; margin-top: 25px;">
+                <p>MSE Gradient Boosting: 59.727</p>
+            </div>
+            <p class="label">MSE TERBAIK DICAPAI OLEH:</p>
+            <p class="metric">52.6301</p>
+            <p class="label" style="font-weight: 600;">NEURAL NETWORK (ANN)</p>
+            <p style="font-size: 0.9em; margin-top: 15px;">**Kesimpulan:** Model Deep Learning terbukti lebih unggul dalam menangani kompleksitas data *time series* ini.</p>
+        </div>
+    </div>
+
+    <div class="slide-container slide-4">
+        <h2 class="color-primary" style="font-size: 1.8em;">VISUALISASI & KODE SUMBER</h2>
+
+        <div class="viz-area">
+            <div class="viz-box">
+                <img src="image_4b0999.png-d2cca9eb-6a2e-4825-b1cb-6850868fbeda" alt="Correlation Heatmap" class="viz-placeholder-img">
+                <p>Analisis Korelasi Antar Fitur (Gambar 1)</p>
+            </div>
+            <div class="viz-box">
+                <img src="image_4b0ca1.png-e4263119-119b-4c98-9053-c535c8ef07a9" alt="ANN Training History" class="viz-placeholder-img">
+                <p>Konvergensi Model (Train vs Validation Loss) (Gambar 2)</p>
+            </div>
+        </div>
+
+        <div class="code-link-final bg-primary">
+            <a href="https://github.com/fuhrerhn/[NAMA_REPO]/blob/main/Tim_Puk_Notebook.ipynb" target="_blank">
+                Akses Kode Lengkap di GitHub: Tim Puk_Notebook.ipynb
+            </a>
+            <p style="color: white; font-size: 0.9em; margin-top: 5px;">*Pastikan link ini mengarah ke file di repo Anda.*</p>
+        </div>
+        
+        <p style="text-align: center; margin-top: 20px; font-weight: 600; color: #03045E;">Siap bergabung dan berkolaborasi di Avalon AI Community.</p>
+    </div>
+
+</body>
+</html>
